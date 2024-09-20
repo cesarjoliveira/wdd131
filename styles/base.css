@@ -1,19 +1,80 @@
-
 body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: steelblue;
+    
+}
+header {
+    background-color: rgb(6, 8, 105);
+}
+main{
+    max-width: 90%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 70% 30%;
+}
+.card{
+    
+    text-align: center;
+    justify-content: space-between;
+    margin: 10px;
+    border-left:solid;
+    border-width: 2px;
+    border-right: solid;
+    
+}
+.card h3{
+    background-color: darkblue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    display: block;
+
+}
+.card h4{
+    text-align: center;
+}
+.about, .state{
+    display: flex;
+    justify-content: space-between;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+.about, .state p{
+    margin: 20px;
+}
+.resources{
+    max-width: 100%;
+    grid-column-start: 3;
+    display: grid;
 }
 h1{
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
+.pagetitle{
+    text-align: center;
+    width: 100%;
+    color: aliceblue;
+}
 nav{
     display: flex;
     background-color: rgb(197, 191, 191);
+    height: 60px;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
 }
-main{
-    display: grid;
+nav a{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration:underline;
 }
