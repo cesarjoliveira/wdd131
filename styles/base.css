@@ -1,19 +1,19 @@
 
-.body{
+body{
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: steelblue;
 }
-.h1{
+h1{
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
-.nav{
+nav{
     display: flex;
     background-color: rgb(197, 191, 191);
 }
-.main{
+main{
     display: grid;
 }
