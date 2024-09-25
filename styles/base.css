@@ -32,6 +32,9 @@ main{
     display: block;
 
 }
+.resources a:hover{
+    text-decoration:underline;
+}
 .card h4{
     text-align: center;
 }
