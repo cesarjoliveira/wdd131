@@ -1,0 +1,27 @@
+@media only screen and (min-width: 40em){
+    .nav {
+		display: flex;
+	}
+    .nav li {
+		display: block;
+		flex: 1 1 100%;
+	}
+    .nav ul li a {
+		text-align: center;
+	}
+
+    #menu {
+		display: none;
+	}
+
+    .main-cointainer{
+        .main-cointainer{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .main-cointainer img{
+            grid-column: 1;
+        }
+    }
+    
+}
