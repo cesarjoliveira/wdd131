@@ -1,14 +1,17 @@
+body {
+background-color:antiquewhite
+}
 header{
-    background-color:#1909f3;
+    background-color:#4037c5;
+    color: white;
     padding: 10px;
 }
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 499px;
 }
-.navigation{
+.nav {
     list-style-type:none;
     margin: 0;
     padding: 0;
