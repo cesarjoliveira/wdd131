@@ -1,7 +1,4 @@
 @media screen and (min-width: 501px){
-    header{
-        background-color: brown;
-    }
     .navigation {
 		display: flex;
 	}
@@ -16,15 +13,11 @@
     .menu {
 		display: none;
 	}
-    .main-cointainer{
+    .main-container{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 33% 33% 33%;
         }
-        
     
-    .main-cointainer img{
-        grid-column: 1;
-    }
     #menu{
         display: none;
     }

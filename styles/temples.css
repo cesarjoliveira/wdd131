@@ -1,5 +1,5 @@
 header{
-    background-color:#bc09f3;
+    background-color:#1909f3;
     padding: 10px;
 }
 .container{
@@ -29,7 +29,7 @@ header{
 .navigation li a:hover {
     text-decoration: underline;
 }
-.main-cointainer{
+.main-container{
     display: grid;
     grid-template-columns: 1fr ;
 }
@@ -43,10 +43,12 @@ main ul{
     padding: 0;
     display: grid;
 }
-
+main{
+    text-align: center;
+}
 .navigation a:hover, .navigation a:active {
-	color: white;
-	background-color: black;
+	color: rgb(14, 13, 13);
+	background-color: rgb(231, 174, 174);
 }
 
 .show li {
