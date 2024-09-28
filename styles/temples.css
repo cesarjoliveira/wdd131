@@ -6,27 +6,27 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 760px;
+    max-width: 499px;
 }
-nav ul{
+.navigation{
     list-style-type:none;
     margin: 0;
     padding: 0;
     display: flex;
 }
 
-nav ul li {
+.navigation li {
     margin-right: 20px;
     display: none;
 }
 
-nav ul li a {
+.navigation li a {
     color: white;
     text-decoration: none;
     font-size: 16px;
 }
 
-nav ul li a:hover {
+.navigation li a:hover {
     text-decoration: underline;
 }
 .main-cointainer{
@@ -44,10 +44,28 @@ main ul{
     display: grid;
 }
 
+.navigation a:hover, .navigation a:active {
+	color: white;
+	background-color: black;
+}
+
 .show li {
 	display: block;
+}
+#menu::before {
+	content: "≡";
 }
 
 #menu.show::before {
 	content: "X";
+}
+
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #eee;
+	color: #000;
 }

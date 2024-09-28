@@ -1,27 +1,31 @@
-@media screen and (min-width: 500px){
-    .nav {
+@media screen and (min-width: 501px){
+    header{
+        background-color: brown;
+    }
+    .navigation {
 		display: flex;
 	}
-    .nav li {
+    .navigation li {
 		display: block;
 		flex: 1 1 100%;
 	}
-    .nav ul li a {
+    .navigation a {
 		text-align: center;
 	}
 
-    #menu {
+    .menu {
 		display: none;
 	}
-
     .main-cointainer{
-        .main-cointainer{
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         }
-        .main-cointainer img{
-            grid-column: 1;
-        }
-    }
+        
     
+    .main-cointainer img{
+        grid-column: 1;
+    }
+    #menu{
+        display: none;
+    }
 }
