@@ -47,4 +47,8 @@
         bottom: 10%;
         right: 10%;
     }
+
+    .weather-card .header::after {
+       content: "🌤️";
+    }
 }
