@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page contains information about Brazil and its Weather.">
+    <meta name="author" content="Cesar Oliveira">
+    <title>Temple Album</title>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="scripts/place.js"></script>
+    <script defer src="scripts/getdates.js"></script>
+</head>
+<body>
+<header>
+    <h1>Brazil</h1>
+</header>
+
+<main class="hero-container">
+    <picture>
+        <source media="(min-width:650px)" srcset="images/place-large.webp">
+        <img class="hero-image" src="images/place.webp" alt="Brazil Image">
+    </picture>
+
+    <aside class="data-card">
+        <h2 class="header">Data</h2>
+        <ul>
+            <li><strong>Area:</strong> 8,515,767 sq km</li>
+            <li><strong>Population:</strong> 214,000,000</li>
+            <li><strong>Capital:</strong> Brasília</li>
+            <li><strong>Languages:</strong> Portuguese</li>
+            <li><strong>Currency:</strong> Brazilian Real</li>
+            <li><strong>Time Zone:</strong> UTC−3 (BRT)</li>
+            <li><strong>Calling Code:</strong> +55</li>
+            <li><strong>Internet TLD:</strong> .br</li>
+        </ul>
+    </aside>
+    <aside class="weather-card">
+        <img class="icon-mobile" src="images/icon-place.svg" width="35px" height="35px">
+        <h2 class="header">Weather</h2>
+        
+        <ul>
+            <li><strong>Temperature:</strong> 10ºC</li>
+            <li><strong>Conditions:</strong> Partly Cloudy</li>
+            <li><strong>Wind:</strong> 5 km/h</li>
+            <li><strong>Wind Chill:</strong> 9.8ºC</li>
+        </ul>
+    </aside>
+</main>
+<footer>
+    <p>©<span id="currentyear"></span> Cesar Oliveira - Brazil </p>
+    <p> last Modification: <span id="lastModified"></span></p>
+</footer>
+</body>
+</html>
