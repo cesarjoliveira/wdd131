@@ -1,0 +1,96 @@
+body {
+background-color:antiquewhite
+}
+header{
+    background-color:#4037c5;
+    color: white;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 20px;
+    display: none;
+}
+
+.navigation li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navigation li a:hover {
+    text-decoration: underline;
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+.main-cointainer img{
+    grid-column: 1;
+}
+
+main ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+main{
+    text-align: center;
+}
+.navigation a:hover, .navigation a:active {
+	color: rgb(14, 13, 13);
+	background-color: rgb(231, 174, 174);
+}
+
+.show li {
+	display: block;
+}
+#menu::before {
+	content: "≡";
+}
+
+#menu.show::before {
+	content: "X";
+}
+
+#menu {
+	display: block;
+	font-size: 2rem;
+	font-weight:700;
+	text-decoration: none;
+	padding: .5rem .75rem;
+	background-color: #eee;
+	color: #000;
+}
+
+.temple-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    text-align: left;
+    background-color: white;
+    transition: box-shadow 0.3s;
+}
+
+.temple-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.temple-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
