@@ -1,0 +1,100 @@
+body {
+    background-color: #302681;
+    font-family: Arial, sans-serif;
+    color: #ffcb00;
+    margin: 0;
+    padding: 20px;
+}
+
+.form-container {
+    background-color: #fff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    background-color: #4a2b8a;
+    color: #ffcb00;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #302681;
+}
+
+input[type="text"],
+input[type="date"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4a2b8a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #3a2273;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.rating-stars {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.rating-stars label {
+    font-size: 24px;
+    color: #4a2b8a;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.rating input {
+    margin: 0 10px;
+}
+
+.rating input:checked + label {
+    color: #ffcb00;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox-group label {
+    display: inline;
+    margin-left: 5px;
+}
