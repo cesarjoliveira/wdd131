@@ -11,6 +11,3 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('visit-count').textContent = visitCount;
 });
 
-document.getElementById('contactForm').addEventListener('submit', function() {
-    window.location.href = 'send.html';
-});
