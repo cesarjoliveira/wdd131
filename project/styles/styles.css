@@ -179,7 +179,12 @@ footer {
     nav ul li {
         margin: 10px 0;
     }
-
+    .about-us h2 {
+        color: var(--nav-text);
+        writing-mode: horizontal-tb;
+        text-orientation:upright;
+        padding: 10px;
+    }
     .intro {
         position: relative;
         width: 100%;
@@ -205,7 +210,8 @@ footer {
     }
 
     .about-us {
-        max-width: 90%;
+        max-width: 100%;
+        border-radius: 0;
         margin: 10px auto;
     }
 
