@@ -1,0 +1,87 @@
+:root {
+    --nav-background: #ADD8E6; 
+    --nav-text: #FF7F50; 
+    --nav-hover-background: rgba(0, 0, 255, 0.1);
+    --nav-hover-text: #FF7F50; 
+    max-width: 100%;
+    cursor: default;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6E6FA;
+    color: #333; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--nav-background); 
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--nav-text);
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--header-text); 
+}
+
+nav {
+    background-color: var(--nav-background);
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px; 
+}
+
+nav ul li a {
+    color: var(--nav-text); 
+    text-decoration: none; 
+    padding: 10px 15px; 
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+}
+
+nav ul li a:hover {
+    background-color: var(--nav-hover-background); 
+    color: var(--nav-hover-text); 
+    transform: scale(1.05); 
+    text-decoration: underline; 
+}
+
+h1 {
+    color: var(--nav-text); 
+    text-align: center; 
+}
+
+main {
+    padding: 20px; 
+    text-align: center; 
+}
+
+.confirmation {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px; 
+    margin: 20px auto; 
+    max-width: 600px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+footer {
+    background-color: var(--nav-background); 
+    color: var(--nav-text); 
+    text-align: center; 
+    padding: 10px 0; 
+    width: 100%; 
+}
