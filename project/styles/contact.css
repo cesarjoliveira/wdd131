@@ -4,6 +4,7 @@
     --nav-hover-background: rgba(0, 0, 255, 0.1);
     --nav-hover-text: #FF7F50; 
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #E6E6FA; 
@@ -106,4 +107,21 @@ footer {
     text-align: center;
     padding: 10px 0;
     width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
 }
